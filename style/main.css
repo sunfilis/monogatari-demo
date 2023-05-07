@@ -103,7 +103,10 @@ button:hover {
 
 /* Text Box styling */
 [data-component="text-box"] {
-
+    background-image: url(../assets/ui/textbox2.png);
+	background-color: rgba(0, 0, 0, 0);
+	bottom: 5rem;
+	width: 100%;
 }
 
 /* Character Name Style */
@@ -113,7 +116,7 @@ button:hover {
 
 /* Style for Centered Text */
 [data-component="centered-dialog"] {
-
+	
 }
 
 /* Character Images Styles */
