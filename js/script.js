@@ -39,7 +39,7 @@ monogatari.configuration ('credits', {
 
 // Define the images that will be available on your game's image gallery
 monogatari.assets ('gallery', {
-
+	'someImage': 'sprite_second_outfit_serious.png'
 });
 
 // Define the music used in the game.
@@ -86,8 +86,7 @@ monogatari.characters ({
 		expressions: {
 			happy: 'expressions/smile.png',
 			normal: 'expressions/neutral.png'
-		},
-		default_expression: 'normal'
+		}
 	}
 });
 
@@ -141,6 +140,7 @@ monogatari.script ({
 		'y:happy Thats awesome!',
 		'y Then you are ready to go ahead and create an amazing Game!',
 		'y I can’t wait to see what story you’ll tell!',
+		"gallery unlock someImage",
 		'jump Ending'
 	],
 
