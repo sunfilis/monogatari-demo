@@ -28,7 +28,7 @@ const { $_ready, $_ } = Monogatari;
 // 1. Outside the $_ready function:
 monogatari.component('loading-screen').template(() => {
 	return `
-			<video id="bg-loading" autoplay loop muted poster="./assets/loading-bg-backup.png">
+			<video id="bg-loading" autoplay loop muted>
 				<source src="./assets/videos/background_loop.mp4" type="video/mp4">
 			</video>
 			<div data-content="wrapper">
