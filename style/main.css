@@ -46,6 +46,11 @@ loading-screen div {
     width: 100%;
 }
 
+loading-screen [data-content=progress] {
+	border-radius: 50px;
+	box-shadow: none;
+}
+
 progress {
 	height: 2em;
 }
