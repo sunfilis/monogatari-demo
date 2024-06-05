@@ -32,6 +32,7 @@
 
 .loading-text {
 	font-family: 'Nunito';
+	color: white;
 	font-weight: 900;
 	font-size: 64px;
 	text-shadow: 4px 4px 1px #2E72C1, 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -39,6 +40,36 @@
 
 loading-screen {
 	background: transparent;
+}
+
+loading-screen div {
+    width: 100%;
+}
+
+progress {
+	height: 2em;
+}
+
+::-webkit-progress-bar {
+	background: white;
+	outline: 5px solid #2E72C1;
+	border-radius: 50px;
+}
+
+::-webkit-progress-bar:before {
+	background: #2E72C1;
+    border-radius: 50px;
+    inset: 10px 3px;
+    outline: 4px solid white;
+    content: '';
+    z-index: -1;
+    position: absolute;
+}
+
+::-webkit-progress-value {
+	background: linear-gradient(to right, #2E72C1, #4F9BD8 54%, #7FD6FA);
+	border-radius: 50px;
+	outline: #2E72C1 solid 4px;
 }
 
 /* General Style */
