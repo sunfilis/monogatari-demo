@@ -37,6 +37,10 @@
 	text-shadow: 4px 4px 1px #2E72C1, 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+loading-screen {
+	background: transparent;
+}
+
 /* General Style */
 body {
 
