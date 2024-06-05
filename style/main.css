@@ -61,7 +61,7 @@ progress {
 	border-radius: 50px;
 }
 
-::-webkit-progress-bar:before {
+loading-screen [data-content=progress]:before {
 	background: #2E72C1;
     border-radius: 50px;
     inset: 10px 3px;
